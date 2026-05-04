@@ -4,14 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       increment:
-        description: Version increment (leave blank to auto-detect from commits)
-        required: false
+        description: "Version increment"
+        required: true
         type: choice
-        options: ["", "patch", "minor", "major"]
+        options: ["patch", "minor", "major"]
 
 jobs:
   release:
-    name: Bump version & publish release
+    name: Tag & publish release
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -32,27 +32,26 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config tag.gpgsign false
 
-      - name: Bump version
-        run: |
-          if [ -n "${{ github.event.inputs.increment }}" ]; then
-            uv run cz bump --increment "${{ github.event.inputs.increment }}" --yes
-          else
-            uv run cz bump --yes
-          fi
-
-      - name: Push tag & updated files
-        run: git push --follow-tags
-
-      - name: Read new version
+      - name: Compute next version
         id: version
-        run: echo "tag=$(git describe --tags --abbrev=0)" >> "$GITHUB_OUTPUT"
+        run: |
+          NEXT=$(uv run cz bump --dry-run --increment "${{ github.event.inputs.increment }}" 2>&1 \
+            | grep -oP '\d+\.\d+\.\d+' | tail -1)
+          echo "next=v${NEXT}" >> "$GITHUB_OUTPUT"
+          echo "Next version: v${NEXT}"
+
+      - name: Create and push tag
+        run: |
+          git tag -a "${{ steps.version.outputs.next }}" \
+            -m "chore(release): ${{ steps.version.outputs.next }}"
+          git push origin "${{ steps.version.outputs.next }}"
 
       - name: Create GitHub release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create "${{ steps.version.outputs.tag }}" \
-            --title "${{ steps.version.outputs.tag }}" \
-            --notes-from-tag \
-            --verify-tag
+          gh release create "${{ steps.version.outputs.next }}" \
+            --title "${{ steps.version.outputs.next }}" \
+            --generate-notes
