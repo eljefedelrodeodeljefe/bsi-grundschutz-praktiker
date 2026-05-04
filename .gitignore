@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Personal quiz history — scraped JSON (questions.json, urls.json) is committed
+data/results.json

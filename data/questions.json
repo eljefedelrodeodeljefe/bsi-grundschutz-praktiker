@@ -1,0 +1,734 @@
+{
+  "Sicherheitsmanagement": {
+    "lesson": 2,
+    "lesson_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_2_Sicherheitsmanagement/Lektion_2_node.html",
+    "test_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_2_Sicherheitsmanagement/Lektion_2_10/Lektion_2_10_node.html",
+    "loesungen_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_2_Sicherheitsmanagement/Lektion_2_11/Lektion_2_11_node.html",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Welches Modell liegt dem in BSI-Standard 200-1 beschriebenen Sicherheitsprozess zugrunde?",
+        "answers": [
+          "ein Zyklus aus den Schritten Plan, Do, Check und Act",
+          "ein Verfahren zur Definition eines State-of-the-Art-Informationssicherheitsniveaus",
+          "ein auf stetige Verbesserung angelegtes Modell",
+          "ein Modell aus technischen Sicherheitsmaßnahmen"
+        ],
+        "correct": [
+          0,
+          2
+        ]
+      },
+      {
+        "number": 2,
+        "question": "Was sollte eine Leitlinie zur Informationssicherheit enthalten?",
+        "answers": [
+          "detaillierte technische Vorgaben für die Konfiguration wichtiger IT-Systeme",
+          "Aussagen zur Bedeutung der Informationssicherheit für die betroffene Institution",
+          "grundlegende Regelungen zur Organisation der Informationssicherheit",
+          "konkrete Verhaltensregelungen für den Umgang mit vertraulichen Informationen"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "number": 3,
+        "question": "Welche Aufgaben haben üblicherweise Informationssicherheitsbeauftragte?",
+        "answers": [
+          "die Entwicklung von Sicherheitskonzepten zu koordinieren",
+          "die eingesetzte Sicherheitstechnik zu konfigurieren",
+          "der Leitungsebene über den Stand der Informationssicherheit zu berichten",
+          "Presseanfragen zum Stand der Informationssicherheit im Unternehmen zu beantworten"
+        ],
+        "correct": [
+          0,
+          2
+        ]
+      },
+      {
+        "number": 4,
+        "question": "Wie setzt sich ein IS-Management-Team geeignet zusammen?",
+        "answers": [
+          "Aus jeder Abteilung des Unternehmens oder der Behörde werden Mitarbeiter entsandt, damit alle Bereiche gut vertreten sind.",
+          "Nur der IT-Leiter ordnet einige Mitarbeiter in das Team ab.",
+          "Die Zusammensetzung sollte auf Freiwilligkeit beruhen. Jeder der Interesse hat, wird aufgenommen.",
+          "Die Geschäftsleitung setzt das Team aus Verantwortlichen für bestimmte IT-Systeme, Anwendungen, Datenschutz und IT-Service und (sofern vorhanden) dem ICS-ISB zusammen."
+        ],
+        "correct": [
+          3
+        ]
+      },
+      {
+        "number": 5,
+        "question": "Wer ist für die Freigabe der Leitlinie zur Informationssicherheit verantwortlich?",
+        "answers": [
+          "das IS-Management-Team",
+          "der ISB",
+          "die Unternehmens-oder Behördenleitung",
+          "die Öffentlichkeitsabteilung eines Unternehmens oder einer Behörde"
+        ],
+        "correct": [
+          2
+        ]
+      },
+      {
+        "number": 6,
+        "question": "Warum kann es sinnvoll sein, sich für eine Sicherheitskonzeption gemäß der Basis-Absicherung zu entscheiden?",
+        "answers": [
+          "Die Erfüllung der zugehörigen Anforderungen reicht in der Regel für ein normales Unternehmen völlig aus.",
+          "Weil schnell Informationssicherheit umgesetzt werden muss und die Basis-Absicherung hierfür einen geeigneten Einstieg bietet.",
+          "Weil Informationssicherheit Schritt für Schritt umgesetzt werden soll. Mittelfristig kann das Sicherheitskonzept nach Standard-Absicherung ausgebaut werden.",
+          "Weil die hochwertigen Informationen dringend geschützt werden müssen. Die Basis-Absicherung sorgt für den angemessenen Schutz der „Kronjuwelen“ einer Institution."
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "Strukturanalyse": {
+    "lesson": 3,
+    "lesson_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_3_Strukturanalyse/Lektion_3_node.html",
+    "test_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_3_Strukturanalyse/Lektion_3_08/Lektion_3_08_node.html",
+    "loesungen_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_3_Strukturanalyse/Lektion_3_09/Lektion_3_09_node.html",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Welche Ziele verfolgt die Strukturanalyse im Rahmen der IT-Grundschutz-Methodik?",
+        "answers": [
+          "die Identifizierung der Objekte, die besonders stark gefährdet sind",
+          "die Ermittlung der Objekte, die in einem Sicherheitskonzept zu berücksichtigen sind",
+          "die angemessene Zusammenfassung von Objekten, für die gleiche Sicherheitsmaßnahmen angewendet werden können",
+          "die Ermittlung der Objekte, für die es passende Bausteine im IT-Grundschutz-Kompendium gibt"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "number": 2,
+        "question": "Welche Informationen sollten Netzpläne enthalten, die für die Strukturanalyse benötigt werden?",
+        "answers": [
+          "die bei der Erarbeitung des Sicherheitskonzepts beteiligten Organisationseinheiten",
+          "die Art der Vernetzung der IT-Systeme eines Informationsverbundes",
+          "die Außenverbindungen des Netzes eines Informationsverbundes",
+          "die Art der IT-Systeme eines Informationsverbundes"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "number": 3,
+        "question": "Wann bietet es sich an, IT-Systeme bei der Strukturanalyse zu gruppieren?",
+        "answers": [
+          "wenn diese den gleichen Schutzbedarf und ähnliche Eigenschaften (Betriebssystem, Netzanbindung, unterstützte Anwendungen) haben",
+          "wenn es für diese Systeme eigene und geeignete Bausteine im IT-Grundschutz-Kompendium gibt",
+          "wenn diese in denselben Räumlichkeiten untergebracht sind",
+          "wenn die Anzahl der insgesamt erfassten Objekte zu groß zu werden droht"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "number": 4,
+        "question": "Welche der folgenden Aufgaben gehören gemäß BSI-Standard 200-2 zur Strukturanalyse?",
+        "answers": [
+          "die angemessene Gruppierung der Komponenten eines Informationsverbundes",
+          "die Modellierung der Geschäftsprozesse und Fachaufgaben eines Informationsverbundes",
+          "die Überprüfung, ob die eingesetzte IT die Geschäftsprozesse und Fachaufgaben angemessen unterstützt",
+          "die Erhebung der Informationen, Geschäftsprozesse, Anwendungen, IT-Systeme, Kommunikationsverbindungen und räumlichen Gegebenheiten eines Informationsverbundes"
+        ],
+        "correct": [
+          0,
+          3
+        ]
+      },
+      {
+        "number": 5,
+        "question": "Welche Angaben sind für IT-Systeme bei der Strukturanalyse zu erfassen?",
+        "answers": [
+          "Typ und Einsatzzweck",
+          "Lieferant und Preis",
+          "Benutzer und Administrator",
+          "Standort (Gebäude und Raum)"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "number": 6,
+        "question": "Welche Anwendungen sind in der Strukturanalyse zu erfassen?",
+        "answers": [
+          "alle Anwendungen, die auf den IT-Systemen im Informationsverbund installiert sind",
+          "alle Anwendungen, die für mindestens einen der bereits erfassten Geschäftsprozesse erforderlich sind",
+          "alle Anwendungen, für die eine gültige Lizenz vorhanden ist",
+          "alle Anwendungen, die von mindestens 20 Prozent der Mitarbeiter genutzt werden"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    ]
+  },
+  "Schutzbedarfsfeststellung": {
+    "lesson": 4,
+    "lesson_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_4_Schutzbedarfsfeststellung/Lektion_4_node.html",
+    "test_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_4_Schutzbedarfsfeststellung/Lektion_4_08/Lektion_4_08_node.html",
+    "loesungen_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_4_Schutzbedarfsfeststellung/Lektion_4_09/Lektion_4_09_node.html",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Welche klassischen Schutzziele werden bei der Schutzbedarfsfeststellung gemäß IT-Grundschutz empfohlen?",
+        "answers": [
+          "Authentizität",
+          "Verfügbarkeit",
+          "Vertraulichkeit",
+          "Integrität"
+        ],
+        "correct": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "number": 2,
+        "question": "In welchen Fällen können Sie gemäß IT-Grundschutz-Methodik auf die Schutzbedarfsfeststellung für ein IT-System verzichten?",
+        "answers": [
+          "wenn das IT-System spätestens innerhalb von 18 Monaten ausgesondert wird",
+          "wenn das IT-System nicht eingesetzt wird",
+          "wenn die Anwendungen, die es unterstützt, nur einen normalen Schutzbedarf haben",
+          "wenn der Schutzbedarf bereits im Rahmen einer vor einem Jahr durchgeführten Revision festgestellt wurde"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "number": 3,
+        "question": "Welche Kriterien berücksichtigen Sie bei der Bestimmung des Bedarfs an Verfügbarkeit eines IT-Systems?",
+        "answers": [
+          "die maximal tolerierbare Ausfallzeit des IT-Systems",
+          "den Aufwand, der erforderlich ist, um das IT-System nach einer Beschädigung wiederherzustellen",
+          "die Anzahl der Benutzer des IT-Systems",
+          "die Anschaffungskosten des IT-Systems"
+        ],
+        "correct": [
+          0
+        ]
+      },
+      {
+        "number": 4,
+        "question": "Was berücksichtigen Sie, wenn Sie den Schutzbedarf einer Anwendung bestimmen?",
+        "answers": [
+          "die Informationen, die im Zusammenhang mit der Anwendung verwendet werden",
+          "die Bedeutung der Anwendung für die Geschäftsprozesse oder Fachaufgaben",
+          "die relevanten Gefährdungen, denen die Anwendung ausgesetzt ist",
+          "die räumliche Umgebung des IT-Systems, das die Anwendung bereitstellt"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "number": 5,
+        "question": "Unter welchen Bedingungen kann der Schutzbedarf eines IT-Systems bezüglich Verfügbarkeit geringer sein als derjenige der Anwendungen, für die es eingesetzt wird?",
+        "answers": [
+          "wenn der Buchwert des IT-Systems einen zuvor definierten Schwellwert unterschreitet",
+          "wenn das IT-System nur solche Teile der Anwendungen bedient, die einen geringeren Schutzbedarf haben",
+          "wenn mindestens ein weiteres redundantes IT-System in Betrieb ist, das die betreffenden Anwendungen bereitstellen kann",
+          "wenn die Anwendungen innerhalb der nächsten drei Monate so umstrukturiert werden sollen, dass das betreffende IT-System nicht mehr benötigt wird"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "number": 6,
+        "question": "Wenn bei der Schutzbedarfsfeststellung für ein IT-System Kumulationseffekte berücksichtigt werden, bedeutet dies, dass …",
+        "answers": [
+          "… sich der Schutzbedarf des IT-Systems erhöht, weil sich Einzelschäden zu einem höheren Gesamt­schaden addieren.",
+          "… sich der Schutzbedarf des IT-Systems verringert, weil geeignete, sich gegenseitig verstärkende Sicherheitsmaßnahmen im Einsatz sind.",
+          "… sich der für das IT-System festgestellte Schutzbedarf auch auf den Schutzbedarf anderer IT-Systeme auswirkt, die mit dem betreffenden IT-System vernetzt sind.",
+          "… der Schutzbedarf des IT-Systems erst festgestellt werden kann, wenn der Schutzbedarf der mit diesem vernetzten IT-Systeme festgestellt ist."
+        ],
+        "correct": [
+          0
+        ]
+      }
+    ]
+  },
+  "Modellierung": {
+    "lesson": 5,
+    "lesson_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_node.html",
+    "test_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_06/Lektion_5_06_node.html",
+    "loesungen_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_07/Lektion_5_07_node.html",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Welche Aufgaben stellen sich Ihnen bei der Modellierung gemäß IT-Grundschutz?",
+        "answers": [
+          "Sie bilden den in der Strukturanalyse dokumentierten Informationsverbund mithilfe der IT-Grundschutz-Bausteine ab.",
+          "Sie entwerfen die Sicherheitsarchitektur des betrachteten Informationsverbundes.",
+          "Sie merken Zielobjekte, die nicht geeignet modelliert werden können, für eine Risikoanalyse vor.",
+          "Sie prüfen, welche IT-Grundschutz-Bausteine für den betrachteten Informationsverbund relevant sind."
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "number": 2,
+        "question": "Welche Informationen sind Bestandteil eines IT-Grundschutz-Bausteins?",
+        "answers": [
+          "Angaben zur spezifischen Gefährdungslage",
+          "Beschreibungen zu Standard-Sicherheitsmaßnahmen",
+          "Verweise auf weiterführende Informationen",
+          "Sicherheitsanforderungen zu einem gegebenen Sachverhalt"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "number": 3,
+        "question": "Welche Aufgaben stellen sich Ihnen, nachdem Sie bei der Modellierung festgelegt haben, welche Bausteine für den Informationsverbund und seine einzelnen Zielobjekte anzuwenden sind?",
+        "answers": [
+          "die Festlegung von Maßnahmen, mit denen die Anforderungen erfüllt werden können",
+          "die Prüfung, ob für einzelne Anforderungen, deren Umsetzung im gegebenen Anwendungskontext mit vertretbarem Aufwand nicht möglich ist, Alternativen erforderlich sind",
+          "die Korrektur der Schutzbedarfsfeststellung für Zielobjekte, bei denen die Erfüllung der Anforderungen unrealistisch erscheint",
+          "die Dokumentation der Ergebnisse der Modellierung"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "number": 4,
+        "question": "Worauf sollten Sie bei der Auswahl und Anpassung der Sicherheitsmaßnahmen auf Basis der Anforderungen achten?",
+        "answers": [
+          "auf die Wirtschaftlichkeit der Maßnahmen",
+          "auf die Wirksamkeit der Maßnahmen",
+          "auf den Innovationsgrad der Maßnahmen",
+          "auf die Benutzerfreundlichkeit der Maßnahmen"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "number": 5,
+        "question": "Welche Aussagen zur Anwendung von Bausteinen auf Server sind korrekt?",
+        "answers": [
+          "Der Baustein SYS.1.1 Allgemeiner Server ist nur dann anzuwenden, wenn es keinen betriebssystemspezifischen Baustein für einen Server gibt.",
+          "Neben dem Baustein SYS.1.1 Allgemeiner Server ist immer auch der zutreffende betriebssystemspezifische Baustein anzuwenden.",
+          "Wenn es spezielle Bausteine für Server-Anwendungen (z. B. Web-oder Datenbankserver) gibt, muss der betriebssystemspezifische Baustein nicht angewendet werden.",
+          "Für Virtualisierungsserver müssen neben dem Baustein sowohl der Baustein SYS.1.1 Allgemeiner Server als auch der zutreffende betriebssystemspezifische Baustein angewendet werden."
+        ],
+        "correct": [
+          1,
+          3
+        ]
+      },
+      {
+        "number": 6,
+        "question": "Auf welche Zielobjekte ist bei der Modellierung der Baustein ISMS.1 Sicherheitsmanagement anzuwenden?",
+        "answers": [
+          "Er MUSS gesondert auf jeden größeren Standort eines Informationsverbundes angewendet werden.",
+          "Er MUSS einmal angewendet werden, und zwar auf den gesamten Informationsverbund.",
+          "Er ist nur relevant, wenn der Informationsverbund eine gewisse Mindestgröße hat.",
+          "Er MUSS für jedes Teilnetz gesondert angewendet werden, das bei der Strukturanalyse identifiziert wurde."
+        ],
+        "correct": [
+          1
+        ]
+      }
+    ]
+  },
+  "IT-Grundschutz-Check": {
+    "lesson": 6,
+    "lesson_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_6_IT-Grundschutz-Check/Lektion_6_node.html",
+    "test_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_6_IT-Grundschutz-Check/Lektion_6_06/Lektion_6_06_node.html",
+    "loesungen_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_6_IT-Grundschutz-Check/Lektion_6_07/Lektion_6_07_node.html",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Welche Aussagen zum IT-Grundschutz-Check sind zutreffend?",
+        "answers": [
+          "Ein IT-Grundschutz-Check ermöglicht, Defizite bei der Erfüllung von Sicherheitsanforderungen zu ermitteln.",
+          "Bei einem IT-Grundschutz-Check wird lediglich die Erfüllung der Basis-Anforderungen geprüft.",
+          "Ein IT-Grundschutz-Check dient dazu, Sicherheitsprobleme zu identifizieren, die in einer Risikoanalyse genauer untersucht werden müssen.",
+          "Ein IT-Grundschutz-Check ist ein Soll-Ist-Vergleich zwischen Sicherheitsanforderungen und tatsächlich umgesetzten Sicherheitsmaßnahmen."
+        ],
+        "correct": [
+          0,
+          3
+        ]
+      },
+      {
+        "number": 2,
+        "question": "Welche Vorarbeiten erfordert der IT-Grundschutz-Check ?",
+        "answers": [
+          "die Festlegung eines Zeitplans",
+          "die Auswahl von geeigneten Gesprächspartnern",
+          "einen Penetrationstest, um Schwachstellen zu identifizieren, die mit den ausgewählten Gesprächspartnern erörtert werden",
+          "die Zusammenstellung und Lektüre der vorhandenen Dokumente zur Informationssicherheit in dem betrachteten Informationsverbund"
+        ],
+        "correct": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "number": 3,
+        "question": "Welche Verfahren verwenden Sie, um in einem IT-Grundschutz-Check zu prüfen, wie gut eine Gruppe von Clients geschützt ist?",
+        "answers": [
+          "Sie führen Interviews mit den zuständigen Systembetreuern.",
+          "Sie versuchen in einem Penetrationstest, Schwachstellen dieser IT-Systeme zu ermitteln, und beziehen dabei sämtliche zur Gruppe gehörenden Clients ein.",
+          "Sie untersuchen stichprobenartig vor Ort, wie die Clients konfiguriert sind.",
+          "Sie lesen die vorhandene Dokumentation zur Konfiguration der Clients ."
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "number": 4,
+        "question": "Wann bewerten Sie beim IT-Grundschutz-Check eine Anforderung eines IT-Grundschutz-Bausteins als erfüllt?",
+        "answers": [
+          "wenn zu der Anforderung geeignete Maßnahmen vollständig, wirksam und angemessen umgesetzt sind",
+          "wenn der Gesprächspartner Ihnen glaubhaft versichert hat, dass es bislang zu keinen Sicherheitsproblemen auf dem betreffenden IT-System gekommen ist",
+          "wenn es eine umfangreiche Dokumentation zu den Schutzvorkehrungen für das betreffende IT-System gibt",
+          "wenn sowohl im Interview mit einem für das IT-System Zuständigen als auch bei einer stichprobenartigen Überprüfung keine Sicherheitsmängel festgestellt wurden"
+        ],
+        "correct": [
+          0,
+          3
+        ]
+      },
+      {
+        "number": 5,
+        "question": "Wie verfahren Sie beim ersten IT-Grundschutz-Check , also vor der Durchführung von Risikoanalysen, mit Anforderungen für den erhöhten Schutzbedarf?",
+        "answers": [
+          "Sie stufen diese Anforderungen grundsätzlich als entbehrlich ein und verzichten auch dann darauf, diese zu überprüfen, wenn sie in Ihrer Einrichtung umgesetzt sind.",
+          "Sie streichen die Anforderungen aus Ihrem Sollkonzept.",
+          "Sie betrachten Anforderungen für den hohen und sehr hohen Schutzbedarf erst nach Abschluss der Risikoanalyse.",
+          "Sie betrachten im IT-Grundschutz-Check grundsätzlich alle in den IT-Grundschutz-Bausteinen genannten Anforderungen, folglich auch diejenigen für den erhöhten Schutzbedarf."
+        ],
+        "correct": [
+          2
+        ]
+      },
+      {
+        "number": 6,
+        "question": "Sie stellen fest, dass eine Standard-Anforderung für ein IT-System nicht umgesetzt ist, das nur noch kurze Zeit in Betrieb ist. Wie behandeln Sie diese Anforderung beim IT-Grundschutz-Check?",
+        "answers": [
+          "Sie streichen die Anforderung aus dem IT-Grundschutz-Modell.",
+          "Sie dokumentieren diese als entbehrlich, da ihre Umsetzung nicht mehr wirtschaftlich ist.",
+          "Sie dokumentieren diese als nicht erfüllt, und merken gegebenenfalls an, dass geprüft werden muss, ob Maßnahmen zur Behebung dieses Defizits angesichts der kurzen Einsatzzeit des IT-Systems noch angemessen sind.",
+          "Sie dokumentieren diese als nicht erfüllt und merken an, dass geprüft werden muss, ob die daraus resultierenden Risiken in der Restlaufzeit des IT-Systems noch tragbar sind."
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "Risikoanalyse": {
+    "lesson": 7,
+    "lesson_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_7_Risikoanalyse/Lektion_7_node.html",
+    "test_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_7_Risikoanalyse/Lektion_7_11/Lektion_7_11_node.html",
+    "loesungen_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_7_Risikoanalyse/Lektion_7_12/Lektion_7_12_node.html",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Wer trägt die Verantwortung für die bei einer Risikoanalyse getroffenen Entscheidungen zu einem IT-System?",
+        "answers": [
+          "der Administrator des IT-Systems",
+          "die Leitung der Institution",
+          "der Informationssicherheitsbeauftragte",
+          "das IS-Management-Team"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "number": 2,
+        "question": "Welche Gefährdungen werden bei der Erstellung der Gefährdungsübersicht im ersten Schritt betrachtet?",
+        "answers": [
+          "die im Anhang von BSI-Standard 200-3 enthaltenen Risikokataloge",
+          "die relevanten elementaren Gefährdungen aus dem IT-Grundschutz-Kompendium",
+          "die im Anhang der Norm ISO 27005 angeführten Gefährdungen",
+          "die in den Abschnitten zur Gefährdungslage eines Bausteins angeführten spezifischen Gefährdungen"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "number": 3,
+        "question": "Was bewerten Sie bei der Risikoeinschätzung?",
+        "answers": [
+          "die Häufigkeit des Eintretens einer Gefährdung",
+          "das mit einer Gefährdung verbundene Schadensausmaß",
+          "welche Schutzziele von einer Gefährdung betroffen sind",
+          "die Wirksamkeit der geplanten und umgesetzten Maßnahmen gegen eine Gefährdung"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "number": 4,
+        "question": "Wodurch verlagern Sie ein Risiko?",
+        "answers": [
+          "durch den Abschluss einer Versicherung",
+          "durch Outsourcing des risikobehafteten Geschäftsprozesses an einen externen Dienstleister",
+          "durch Umstrukturierung des risikobehafteten Geschäftsprozesses",
+          "durch die Entscheidung, risikomindernde Maßnahmen erst dann umzusetzen, wenn die hierzu erforderlichen Finanzmittel bereitstehen"
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "number": 5,
+        "question": "Aus welchen Gründen kann es gerechtfertigt sein, auch ein hohes Risiko zu akzeptieren?",
+        "answers": [
+          "Der Aufwand für mögliche Schutzmaßnahmen ist unangemessen hoch.",
+          "Vergleichbare Institutionen akzeptieren das Risiko ebenfalls.",
+          "Es gibt keine wirksamen Schutzmaßnahmen gegen das Risiko.",
+          "Es ist bislang noch zu keinem nennenswerten Sicherheitsvorfall aufgrund der dem Risiko zugrunde liegenden Gefährdung gekommen."
+        ],
+        "correct": [
+          0,
+          2
+        ]
+      },
+      {
+        "number": 6,
+        "question": "Wann ist die Risikoakzeptanz grundsätzlich unzulässig?",
+        "answers": [
+          "bei der Nichterfüllung von Basis-Anforderungen",
+          "beim Vorhandensein von elementaren Gefährdungen",
+          "bei sehr hohem Schutzbedarf",
+          "bei Nichterfüllung von Standard-Anforderungen"
+        ],
+        "correct": [
+          0
+        ]
+      }
+    ]
+  },
+  "Umsetzungsplanung": {
+    "lesson": 8,
+    "lesson_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_8_Umsetzungsplanung/Lektion_8_node.html",
+    "test_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_8_Umsetzungsplanung/Lektion_8_06/Lektion_8_06_node.html",
+    "loesungen_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_8_Umsetzungsplanung/Lektion_8_07/Lektion_8_07_node.html",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Was müssen Sie prüfen, wenn Sie die Umsetzung von Sicherheitsmaßnahmen planen?",
+        "answers": [
+          "welche begleitenden Maßnahmen für eine erfolgreiche Umsetzung erforderlich sind",
+          "ob die betreffende Maßnahme bereits eingeführt ist",
+          "ob die Maßnahme mit anderen Maßnahmen vereinbar ist",
+          "in welcher Reihenfolge die verschiedenen Maßnahmen umgesetzt werden sollen"
+        ],
+        "correct": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "number": 2,
+        "question": "Welche Informationen aus dem IT-Grundschutz-Kompendium unterstützen Sie bei der Festlegung einer sinnvollen Umsetzungsreihenfolge der geplanten Maßnahmen?",
+        "answers": [
+          "die fünfstufige Kennziffer zur Angabe der Priorität einer Anforderung in den IT-Grundschutz-Bausteinen",
+          "die Aufteilung der Anforderungen in Basis-und Standard-Anforderungen sowie solchen für den höheren Schutzbedarf",
+          "der Vorschlag zur Kennzeichnung einer sinnvollen Bearbeitungsreihenfolge der Bausteine mithilfe der Kürzel R1, R2 und R3",
+          "die Darstellung der Gefährdungslage am Beginn eines Bausteins"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "number": 3,
+        "question": "Was unternehmen Sie als Informationssicherheitsbeauftragter, wenn die Leitung Ihrer Institution nicht bereit ist, den Aufwand für eine bestimmte Sicherheitsmaßnahme zu tragen?",
+        "answers": [
+          "Sie verdeutlichen ihr, welche Risiken mit dem Fehlen der Maßnahme verbunden sind.",
+          "Sie bitten die Leitung, durch Unterschrift zu bestätigen, dass sie die damit verbundenen Gefahren kennt und trägt.",
+          "Sie ignorieren die Leitung und setzen die Maßnahme trotzdem um.",
+          "Sie verzichten auf eine unmittelbare Reaktion, nehmen sich aber vor, nach Ablauf einer gewissen Zeitspanne die Zustimmung der Leitung einzuholen."
+        ],
+        "correct": [
+          0,
+          1
+        ]
+      },
+      {
+        "number": 4,
+        "question": "Wer sollte in der Regel technische Maßnahmen zur Absicherung eines bestimmten IT-Systems umsetzen?",
+        "answers": [
+          "die Leitung der IT-Abteilung",
+          "der Informationssicherheitsbeauftragte",
+          "der zuständige Systemadministrator",
+          "der Benutzer des IT-Systems"
+        ],
+        "correct": [
+          2
+        ]
+      },
+      {
+        "number": 5,
+        "question": "Wer sollte üblicherweise prüfen, ob eine Sicherheitsmaßnahme wie geplant umgesetzt ist?",
+        "answers": [
+          "die Geschäftsführung",
+          "der Informationssicherheitsbeauftragte",
+          "der zuständige IT-Administrator",
+          "die Leitung der IT-Abteilung"
+        ],
+        "correct": [
+          1
+        ]
+      },
+      {
+        "number": 6,
+        "question": "Welches Hilfsmittel im IT-Grundschutz-Kompendium können Sie verwenden, um Ihrer Leitung zu verdeutlichen, welche Risiken die Nichterfüllung von Anforderungen mit sich bringt?",
+        "answers": [
+          "das Restrisikodeklarationsformular im Anhang des Kompendiums",
+          "die Kreuzreferenztabellen am Ende eines Bausteins",
+          "das Risikokalkulationsschema in der Übersicht der elementaren Gefährdungen",
+          "die Beispiele für eine erfolgreiche Sensibilisierung im Baustein ORP.3 Sensibilisierung und Schulung"
+        ],
+        "correct": [
+          1
+        ]
+      }
+    ]
+  },
+  "Aufrechterhaltung und Verbesserung": {
+    "lesson": 9,
+    "lesson_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_node.html",
+    "test_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_06/Lektion_9_06_node.html",
+    "loesungen_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_07/Lektion_9_07_node.html",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Warum sollten Sie Ihr Sicherheitskonzept regelmäßig überprüfen?",
+        "answers": [
+          "weil sich die Gefährdungslage ändert",
+          "weil sich die Prozesse und Strukturen einer Institution ändern",
+          "weil sich die Zielsetzungen und Prioritäten einer Institution ändern",
+          "weil die IT-Sicherheitsbranche ständig neuen Trends unterliegt"
+        ],
+        "correct": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "number": 2,
+        "question": "Welche Kriterien sollten Sie bei der Überprüfung Ihres Sicherheitskonzepts berücksichtigen?",
+        "answers": [
+          "die Aktualität des Sicherheitskonzepts",
+          "den Umfang des Sicherheitskonzepts",
+          "die Akzeptanz des Sicherheitskonzepts bei der Leitung der Institution",
+          "die Vollständigkeit des Sicherheitskonzepts"
+        ],
+        "correct": [
+          0,
+          3
+        ]
+      },
+      {
+        "number": 3,
+        "question": "Welche Vorteile bieten Reifegradmodelle für die Bewertung eines ISMS ?",
+        "answers": [
+          "Mit einem Reifegradmodell können der Grad der Strukturiertheit und das Maß der systematischen Steuerung eines Prozesses bewertet werden.",
+          "Die Anwendung eines Reifegradmodells ist Voraussetzung für den Erwerb eines IT-Grundschutz-Zertifikats.",
+          "Ein Reifegradmodell kann auf Teilaspekte des ISMS angewendet werden und Defizite bei einzelnen Prozessen abbilden.",
+          "Durch Anwendung eines Reifegradmodells wird eine zentrale Forderung der Norm ISO 27001 erfüllt."
+        ],
+        "correct": [
+          0,
+          2
+        ]
+      },
+      {
+        "number": 4,
+        "question": "Welche Voraussetzungen müssen für den Erwerb eines ISO 27001-Zertifikats auf der Basis von IT-Grundschutz erfüllt sein?",
+        "answers": [
+          "ausschließlich die in einem Audit nachgewiesene Erfüllung der Basis-Anforderungen",
+          "die durch Sichtung von Dokumenten und Vor-Ort-Prüfungen begründete Feststellung der erfolgreichen Erfüllung der IT-Grundschutz-Anforderungen durch einen zertifizierten Auditor",
+          "ein positives Resultat bei der Überprüfung des Audit-Berichts durch das BSI",
+          "die Unterschrift eines zertifizierten Auditors unter die Selbsterklärung einer Institution, dass sie die IT-Grundschutz-Anforderungen umfassend erfüllt hat"
+        ],
+        "correct": [
+          1,
+          2
+        ]
+      },
+      {
+        "number": 5,
+        "question": "Welche der folgenden Untersuchungen haben die systematische Überprüfung der Informationssicherheit in einer Institution zum Ziel?",
+        "answers": [
+          "die Auswertung von IT-Sicherheitsvorfällen",
+          "Penetrationstests",
+          "die IT-Sicherheitsrevision",
+          "ein Audit im Rahmen einer ISO 27001-Zertifizierung auf der Basis von IT-Grundschutz"
+        ],
+        "correct": [
+          2,
+          3
+        ]
+      },
+      {
+        "number": 6,
+        "question": "Was sollte vor der Einführung einer Kennzahl zur Informationssicherheit unbedingt festgelegt werden?",
+        "answers": [
+          "welches Ziel mit der Kennzahl verfolgt werden soll",
+          "mit welchen Stilmitteln positive und negative Ergebnisse gekennzeichnet werden sollen",
+          "mit welchem Verfahren die Werte eine Kennzahl erhoben werden",
+          "wie die Ergebnisse vor der Leitung der Institution verborgen werden können"
+        ],
+        "correct": [
+          0,
+          2
+        ]
+      }
+    ]
+  }
+}
