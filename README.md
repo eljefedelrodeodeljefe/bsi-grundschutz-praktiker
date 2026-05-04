@@ -24,10 +24,20 @@ The result is that after a Strukturanalyse you can map every asset in your envir
 
 A further advantage: BSI provides an [officially recognised mapping](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/Zertifizierung-nach-IS-Grundschutz/ISO-27001-Zertifizierung/iso-27001-zertifizierung_node.html) from Grundschutz to ISO 27001, so a Grundschutz implementation can be certified against both standards simultaneously.
 
+## Prerequisites
+
+| Tool | Install |
+|------|---------|
+| [uv](https://docs.astral.sh/uv/) | `curl -LsSf https://astral.sh/uv/install.sh \| sh` |
+| [just](https://just.systems/) | `brew install just` · `cargo install just` · [other options](https://just.systems/man/en/packages.html) |
+
+`just` is optional — every recipe is a thin wrapper around `uv run`. See the alternatives below.
+
 ## Setup
 
 ```bash
 just install
+# or: uv sync
 ```
 
 ## Usage
@@ -37,6 +47,17 @@ just scrape   # fetch questions from bsi.bund.de → data/questions.json
 just quiz     # run the quiz (default: just)
 just all      # scrape + quiz in one go
 ```
+
+<details>
+<summary>Without <code>just</code></summary>
+
+```bash
+uv sync                        # install
+uv run python scraper.py       # scrape
+uv run python quiz.py          # quiz
+```
+
+</details>
 
 The scraper covers all 8 lessons that have a test (Lektion 1 has no test):
 
