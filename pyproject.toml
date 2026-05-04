@@ -1,6 +1,6 @@
 [project]
 name = "bsi-grundschutz-praktiker"
-version = "0.1.0"
+version = "0.1.1"
 description = "Prüfungstrainer für die BSI IT-Grundschutz Praktiker Zertifizierung als Terminalanwendung"
 requires-python = ">=3.12"
 dependencies = [
