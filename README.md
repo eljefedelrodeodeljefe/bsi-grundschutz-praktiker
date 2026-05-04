@@ -1,5 +1,7 @@
 # BSI IT-Grundschutz Praktiker — Prüfungstrainer
 
+> **⚠ Experimental** — scrapes live BSI pages; question set and UI may change without notice.
+
 Prüfungstrainer für die [BSI IT-Grundschutz Praktiker](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/online-kurs-it-grundschutz_node.html) Zertifizierung. Fragen und Antworten werden direkt vom offiziellen BSI-Online-Kurs gescrapt.
 
 ![Demo](docs/demo.gif)
