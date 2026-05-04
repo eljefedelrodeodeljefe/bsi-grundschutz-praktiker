@@ -90,5 +90,9 @@ hotfix-finish name:
     git merge --no-ff hotfix/{{name}}
     git branch -d hotfix/{{name}}
 
+# Render terminal demo GIF (requires vhs)
+demo:
+    vhs demo.tape
+
 # Scrape then quiz
 all: scrape quiz
