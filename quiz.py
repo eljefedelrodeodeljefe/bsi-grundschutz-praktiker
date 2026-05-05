@@ -17,6 +17,11 @@ from textual.widgets._option_list import Option
 DATA_FILE = Path("data/questions.json")
 
 CSS = """
+/* ── global background override — softer than the default near-black ── */
+Screen {
+    background: #252830;
+}
+
 /* ── shared ── */
 Rule {
     color: $primary-darken-3;
@@ -156,7 +161,7 @@ ConfirmModal {
     height: auto;
     padding: 1 2;
     border: round $warning;
-    background: $surface;
+    background: #2e3040;
 }
 
 #confirm-message {
@@ -173,6 +178,12 @@ ConfirmModal {
     margin: 0 1;
 }
 """
+
+# Muted palette — subdued colours reduce eye-strain on extended use
+C_OK = "#6dab85"  # sage green
+C_WARN = "#c4a059"  # amber
+C_ERR = "#b87070"  # rose-red
+C_INFO = "#6b9bb8"  # steel-blue
 
 
 class AnswerItem(ListItem):
@@ -418,7 +429,7 @@ class MenuScreen(Screen):
         yield Footer()
 
     def _shuffle_label(self) -> str:
-        state = "[green]an[/]" if self.shuffle else "[dim]aus[/]"
+        state = f"[{C_OK}]an[/]" if self.shuffle else "[dim]aus[/]"
         return f"[dim]Mischen: {state}[/]"
 
     @on(OptionList.OptionSelected, "#category-list")
@@ -511,10 +522,10 @@ class QuizScreen(Screen):
             links += "  [dim][@click='open_test']Online-Test ↗[/][/dim]"
 
         self.query_one("#quiz-header", Static).update(
-            f"[bold cyan]{self.category}[/]  [dim]·[/]  "
+            f"[bold {C_INFO}]{self.category}[/]  [dim]·[/]  "
             f"[dim]{enum}[/]  [dim]·[/]  "
-            f"Frage [yellow]{self.idx + 1}[/]/[yellow]{total}[/]  [dim]·[/]  "
-            f"Punkte [green]{self.score}[/]/[dim]{self.idx}[/]"
+            f"Frage [{C_WARN}]{self.idx + 1}[/]/[dim]{total}[/]  [dim]·[/]  "
+            f"Punkte [{C_OK}]{self.score}[/]/[dim]{self.idx}[/]"
             f"{links}"
         )
         self.query_one("#question-text", Static).update(f"[bold]{q['question']}[/]")
@@ -575,15 +586,15 @@ class QuizScreen(Screen):
             mark = "☑" if chosen else "☐"
 
             if right and chosen:
-                lines.append(f"[bold green]{mark}  {j + 1}. {ans}[/]  [green]✓[/]")
+                lines.append(f"[bold {C_OK}]{mark}  {j + 1}. {ans}[/]  [{C_OK}]✓[/]")
             elif right and not chosen:
-                lines.append(f"[green]{mark}  {j + 1}. {ans}[/]  [dim]← richtig[/]")
+                lines.append(f"[{C_OK}]{mark}  {j + 1}. {ans}[/]  [dim]← richtig[/]")
             elif not right and chosen:
-                lines.append(f"[bold red]{mark}  {j + 1}. {ans}[/]  [red]✗[/]")
+                lines.append(f"[bold {C_ERR}]{mark}  {j + 1}. {ans}[/]  [{C_ERR}]✗[/]")
             else:
                 lines.append(f"[dim]{mark}  {j + 1}. {ans}[/]")
 
-        result = "[bold green]✓ Richtig![/]" if is_correct else "[bold red]✗ Falsch.[/]"
+        result = f"[bold {C_OK}]✓ Richtig![/]" if is_correct else f"[bold {C_ERR}]✗ Falsch.[/]"
         self.query_one("#feedback", Static).update("\n".join(lines) + f"\n\n{result}")
 
         self.query_one("#answer-list").display = False
@@ -634,13 +645,13 @@ class ScoreScreen(Screen):
 
     def compose(self) -> ComposeResult:
         pct = self.score / self.total * 100 if self.total else 0
-        color = "green" if pct >= 70 else "yellow" if pct >= 50 else "red"
+        color = C_OK if pct >= 70 else C_WARN if pct >= 50 else C_ERR
         msg = (
-            "[green]Gut gemacht![/]"
+            f"[{C_OK}]Gut gemacht![/]"
             if pct >= 70
-            else "[yellow]Fast – noch ein bisschen üben![/]"
+            else f"[{C_WARN}]Fast – noch ein bisschen üben![/]"
             if pct >= 50
-            else "[red]Weiter üben – du schaffst das![/]"
+            else f"[{C_ERR}]Weiter üben – du schaffst das![/]"
         )
 
         with VerticalScroll(id="score-scroll"):
@@ -666,7 +677,7 @@ class ScoreScreen(Screen):
         ht.add_columns("Datum", "Kategorie", "Score", "Verlauf")
         for s in get_recent_sessions():
             pct = s["score"] / s["total"] * 100 if s["total"] else 0
-            color = "green" if pct >= 70 else "yellow" if pct >= 50 else "red"
+            color = C_OK if pct >= 70 else C_WARN if pct >= 50 else C_ERR
             filled = round(pct / 10)
             bar = f"[{color}]{'█' * filled}[/][dim]{'░' * (10 - filled)}[/]"
             ht.add_row(
@@ -681,7 +692,7 @@ class ScoreScreen(Screen):
         wt.add_columns("Kategorie", "Frage", "%", "Versuche")
         for q in get_worst_questions():
             pct = q["rate"] * 100
-            color = "green" if pct >= 70 else "yellow" if pct >= 50 else "red"
+            color = C_OK if pct >= 70 else C_WARN if pct >= 50 else C_ERR
             text = q["text"][:50] + "…" if len(q["text"]) > 50 else q["text"]
             wt.add_row(
                 q["category"][:18],
